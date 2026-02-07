@@ -1,23 +1,3 @@
-Ah! I see exactly what’s happening. You’re likely **saving the Markdown content in a way that’s treating the `#` as literal text instead of Markdown headings**, which makes the letters appear big or the formatting look broken.
-
-Here’s how to fix it and a properly formatted **ready-to-copy version** for GitHub:
-
----
-
-1. Make sure the file is named **`README.md`** (not `.txt` or `.docx`).
-2. Use a **plain text editor** (VS Code, Sublime, Notepad++, etc.) when pasting.
-3. Do **not save it as rich text** (like Word or Google Docs), only plain text.
-4. In Markdown:
-
-   * `#` = H1 (largest heading)
-   * `##` = H2
-   * `###` = H3
-   * Inline comments can just be normal text; Markdown doesn’t support `#` as “comment” inside rendered text — GitHub will render it as a heading.
-
-For a **clean, GitHub-ready README**, it’s better to use headings properly and remove `#` as inline comments. Here’s a **fixed, professional version for your repo**:
-
----
-
 ````markdown
 # N8N AI Agents Masterclass
 
